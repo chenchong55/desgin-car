@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-hans" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+    <title>配置参数</title>
+    <link rel="stylesheet" type="text/css" href="../../semantic/dist/semantic.min.css" />
+    <script src="../../assets/lib/jquery.min.js"></script>
+    <script src="../../semantic/dist/semantic.min.js"></script>
+  </head>
+  <script type="text/javascript">
+  $.each($("#row_01 td"), function(i){
+    if(i > 0){
+    this.style.display = 'none';
+      }
+    });
+</script>
+  <body>
+    <table class="ui celled padded table table-expandable">
+  <thead>
+    <tr><th class="single line">Evidence Rating</th>
+    <th>Effect</th>
+    <th>Efficacy</th>
+    <th>Consensus</th>
+    <th>Comments</th>
+  </tr></thead>
+  <tbody id="row_01">
+    <tr class="parent" >
+      <td >
+        <h2 class="ui center aligned header">A</h2>
+      </td>
+      <td class="single line ">电源输出 </td>
+      <td class="single line ">电源输出 </td>
+      <td class="single line ">电源输出 </td>
+      <td >Creatine supplementation is the reference compound for increasing muscular creatine levels; there is variability in this increase, however, with some nonresponders.</td>
+    </tr>
+
+
+  </tbody>
+</table>
+  </body>
+</html>
